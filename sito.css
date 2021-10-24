@@ -8,17 +8,17 @@ body {
      }   
 #wordrect { 
     border: thin solid black; 
-    width: 45%; 
+    width: 55%; 
     height:750px; 
-    text-align: initial; 
+    text-align: left; 
     background-color: rgba(255, 255, 255, 0.856); 
     word-wrap: break-word; /* words won't go from the boundry */ 
     margin: 10px 20px auto; 
-    padding: auto auto auto; 
+    padding: 10px 5px 5px; 
     float: left; }
 #Imgrect { 
-    border: thin solid rgb(255, 0, 0); 
-    width: 35%; 
+    border: thin solid black; 
+    width: 25%; 
     height:800px;   
     margin: 10px 20px auto; 
     float: Right;
@@ -31,10 +31,6 @@ img{
     margin: 0;
     
 }
-
-.border-fire{
-      border: 20px solid transparent;
-      border-image: url("images/fire.gif") 30% round; }
 
 @font-face { font-family: regular; src: url("assets/MinecraftRegular-Bmg3.ttf"); } 
 @font-face { font-family: bolditalic; src: url("assets/MinecraftBoldItalic-1y1e.ttf"); } 
