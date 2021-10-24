@@ -18,7 +18,7 @@ body {
     float: left; }
 #Imgrect { 
     border: thin solid black; 
-    width: 35%; 
+    width: 30%; 
     height:800px;   
     margin: 10px 20px auto; 
     float: Right;
