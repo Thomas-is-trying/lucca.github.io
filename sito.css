@@ -1,0 +1,39 @@
+body {
+    background-image:url('images/stars-sparkle.gif');
+    background-size:100%;
+    background-repeat: repeat-y;
+    background-attachment: fixed;
+    height:100%;
+    width:100%;
+     }   
+#wordrect { 
+    border: thin solid black; 
+    width: 50%; 
+    height:600px; 
+    text-align: justify; 
+    background-color: rgba(255, 255, 255, 0.856); 
+    word-wrap: break-word; /* words won't go from the boundry */ 
+    margin: 10px 20px auto; 
+    padding: auto auto auto; 
+    float: left; }
+img{
+    width: 30%;
+    height: 400;
+    object-fit: contain;
+    margin: 15px 20px auto;
+}
+
+.border-fire{
+      border: 20px solid transparent;
+      border-image: url("images/fire.gif") 35% round; }
+
+@font-face { font-family: regular; src: url("assets/MinecraftRegular-Bmg3.ttf"); } 
+@font-face { font-family: bolditalic; src: url("assets/MinecraftBoldItalic-1y1e.ttf"); } 
+.minecraftfont1{
+font-family: regular
+}
+.minecraftfont2{
+    font-family: bolditalic
+    }
+#plane { position: absolute; left: -1000px; width: 50% /* <- not relevant for the animation */ }
+
