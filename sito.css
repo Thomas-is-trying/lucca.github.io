@@ -8,19 +8,19 @@ body {
      }   
 #wordrect { 
     border: thin solid black; 
-    width: 45%; 
-    height:750px; 
+    width: 50%; 
+    height:100%; 
     text-align: left; 
     background-color: rgba(255, 255, 255, 0.856); 
     word-wrap: break-word; /* words won't go from the boundry */ 
-    margin: 10px 20px auto; 
+    margin: 10px 5px auto; 
     padding: 10px 5px 5px; 
     float: left; }
 #Imgrect { 
     border: thin solid black; 
     width: 30%; 
-    height:800px;   
-    margin: 10px 20px auto; 
+    height:100%;   
+    margin: 5px 15px auto; 
     float: Right;
     word-wrap: break-word;  }   
     
@@ -35,10 +35,10 @@ img{
 @font-face { font-family: regular; src: url("assets/MinecraftRegular-Bmg3.ttf"); } 
 @font-face { font-family: bolditalic; src: url("assets/MinecraftBoldItalic-1y1e.ttf"); } 
 .minecraftfont1{
-font-family: regular
+font-family: regular;
+float: left;
 }
 .minecraftfont2{
     font-family: bolditalic
     }
 #plane { position: absolute; left: -1000px; width: 50% /* <- not relevant for the animation */ }
-
